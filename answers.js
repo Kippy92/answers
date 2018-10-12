@@ -139,12 +139,12 @@
 	count(5);
 	
 	//Print and Return
-	function print(num1, num2) {
-		console.log(num1);
-		return num2;
+	function print(arr) {
+		console.log(arr[0]);
+		return arr[1];
 	}
-	print(7,3);
-	console.log(print(7,3));
+	print([7,3]);
+	console.log(print([7,3]));
 	
 	//First Plus Length
 	function first(arr) {
