@@ -108,12 +108,10 @@
 	
 	//Flexible Countdown
 	function countDown(lowNum, highNum, mult) {
-	var x = highNum;	
-  		while (x > lowNum) {
+  		for(var x = highNum; x > lowNum; x--) {
 			if (x % mult == 0) {
 				console.log(x);
-				}
-    			x--;
+			}
 		}
 	};
 	countDown(2, 9, 3);
